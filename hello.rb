@@ -1,3 +1,5 @@
+#encoding: utf-8
+
 puts 1 + 2
 
 a = 'Hello, world'
