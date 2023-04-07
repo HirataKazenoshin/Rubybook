@@ -1,0 +1,1 @@
+puts :apple.class
