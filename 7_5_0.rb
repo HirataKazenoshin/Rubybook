@@ -1,0 +1,24 @@
+class User
+  attr_accessor :name
+
+  def initialize(name)
+    @name = name
+  end
+
+  def hello
+    "Hello, I am #{name}."
+  end
+
+  def hi
+    "Hi, I am #{self.name}."
+  end
+
+  def my_name
+    "My name is #{@name}"
+  end
+end
+
+p user = User.new('Alice')
+p user.hello
+p user.hi
+p user.my_name
